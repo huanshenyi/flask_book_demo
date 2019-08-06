@@ -23,7 +23,7 @@ class ClientForm(Form):
         try:
             client = ClientTypeEnum(value.data)
         except ValueError as e:
-           raise e
+            raise e
         self.type.data = client
 
 

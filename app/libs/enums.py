@@ -11,5 +11,4 @@ class ClientTypeEnum(Enum):
 
     # GitHub
     USER_GIT = 300
-    pass
 

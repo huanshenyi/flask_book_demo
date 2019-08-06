@@ -7,6 +7,7 @@ class APIException(HTTPException):
     msg = 'sorry, we made a mistake (*￣︶￣)!'
     error_code = 999
 
+    # もし値がなければclass要素使用
     def __init__(self, msg=None, code=None, error_code=None,
                  headers=None):
         if code:
@@ -17,6 +18,7 @@ class APIException(HTTPException):
             self.msg = msg
         super(APIException, self).__init__(msg, None)
 
+    # 親クラスの書き直し
     def get_body(self, environ=None):
         body = dict(
             msg=self.msg,
@@ -26,6 +28,7 @@ class APIException(HTTPException):
         text = json.dumps(body)
         return text
 
+    # 親クラスの書き直し
     def get_headers(self, environ=None):
         """Get a list of headers."""
         return [('Content-Type', 'application/json')]

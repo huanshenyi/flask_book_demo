@@ -1,0 +1,16 @@
+nginx + uwsgi
+uwsgi は入口ファイルをloder
+
+
+# flask　ロケーション
+@app.route("/hello")
+def hello():
+    headers = {
+    'content-type': 'application/json',
+    'location': 'http://www.bing.com'
+    }
+    return '<html></html>', 301, headers
+
+
+# 例外用
+from werkzeug.exceptions import HTTPException

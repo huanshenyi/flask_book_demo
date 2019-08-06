@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3317a37-99de-4014-aa51-30665a07fabc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/libs/error.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/error_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memo.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/api/v1/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/secure.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/secure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/enums.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/enums.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/error.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/error.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/error_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/error_code.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/validators/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/validators/forms.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -135,7 +133,10 @@
       <workItem from="1564805846884" duration="8029000" />
       <workItem from="1564820321957" duration="7144000" />
       <workItem from="1564875927233" duration="11588000" />
-      <workItem from="1564894866827" duration="4058000" />
+      <workItem from="1564894866827" duration="5114000" />
+      <workItem from="1564920370039" duration="2496000" />
+      <workItem from="1564990174174" duration="898000" />
+      <workItem from="1565001487586" duration="7845000" />
     </task>
     <servers />
   </component>
@@ -155,19 +156,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/api/v1/client.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ginger$enums.coverage" NAME="enums Coverage Results" MODIFIED="1564840780916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/libs" />
-    <SUITE FILE_PATH="coverage/ginger$Flask__ginger_py_.coverage" NAME="Flask (ginger.py) Coverage Results" MODIFIED="1564901637304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ginger$Flask__ginger_py_.coverage" NAME="Flask (ginger.py) Coverage Results" MODIFIED="1565089172419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
