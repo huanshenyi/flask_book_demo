@@ -14,14 +14,12 @@ api = RedPrint('client')
 def create_client():
     data = request.json
     form = ClientForm(data=data)
-    if form.validate():
-        promise = {
-          ClientTypeEnum.USER_EMAIL: __register_user_by_email,
-          ClientTypeEnum.USER_MINA: __register_user_by_mina
-        }
-        promise[form.type.data]()
-    else:
-        raise ClientTypeError()
+    form.validate_for_api()
+    promise = {
+        ClientTypeEnum.USER_EMAIL: __register_user_by_email,
+        ClientTypeEnum.USER_MINA: __register_user_by_mina
+    }
+    promise[form.type.data]()
     return 'success'
     # form json
     # web  モバイル(webモバイル)
